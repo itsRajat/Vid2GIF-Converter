@@ -88,9 +88,7 @@ function App() {
           Convert
         </button>
       </div>
-      <div className="result">
-        {gif && <img src={gif} width="250" alt="Result: Your converted GIF!" />}
-      </div>
+      {gif && <img src={gif} width="250" alt="Result: Your converted GIF!" />}
       <h2 style={{ fontSize: '20px', textAlign: 'center', padding: '10px' }}>
         {statusText}
       </h2>

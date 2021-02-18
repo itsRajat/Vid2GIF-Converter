@@ -36,9 +36,10 @@ h1 {
 }
 
 img {
-  width: 50%;
-  height: 50%;
-  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
   /* align-items: center;
   justify-content: center; */
 }
